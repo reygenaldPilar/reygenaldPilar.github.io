@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAIN</title>
+    <link rel="stylesheet" href="style-home.css" />
+  </head>
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <img src="logoo.png" class="logo" />
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>Hello World,<br />I'm <span>Reygenald Pilar</span></h2>
+        <p>
+          I am aspiring front end developer, I am energetic, ambitious person
+          who has<br />
+          developed a mature and responsible approach to any task that I
+          undertake or <br />situation that I am presented with
+        </p>
+        <a href="#"> Know more</a>
+      </div>
+
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="facebook.png" /> </a>
+        </li>
+        <li>
+          <a href="#"><img src="linkedin.png" /> </a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter.png" /> </a>
+        </li>
+      </ul>
+    </section>
+
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="abouts/about.html" target="_blank">About me</a></li>
+        <li>
+          <a href="parokya ni edgar/parokya.html" target="_blank">Project</a>
+        </li>
+        <li><a href="skills/index-skill.html">Skills</a></li>
+        <li><a href="Contacts/index-contacts.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <script type="text/javascript">
+      function toggle() {
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>

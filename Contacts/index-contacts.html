@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="index-contacts.css" />
+  </head>
+  <body>
+    <div>
+      <div class="subContainer">
+        <div>
+          <span class="title">CONTACT ME</span><br />
+          <span
+            >If you have any queries, please do not hesitate to contact
+            me.</span
+          ><br /><br />
+          <span>Email: Reygenaldpilar20@gmail.com</span>
+        </div>
+        <div class="inputs">
+          <form
+            action="mailto:reygenaldpilar20@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <input
+              class="text1"
+              type="text"
+              placeholder="NAME (Optional)"
+            /><br />
+            <input class="text2" type="text" placeholder="EMAIL (Required)" />
+            <p id="demo"></p>
+            <br />
+            <input
+              class="text3"
+              type="text"
+              placeholder="SUBJECT (Required)"
+            /><br />
+            <textarea
+              rows="6"
+              cols="30"
+              id="text4"
+              placeholder="MESSAGE (Required)"
+            ></textarea
+            ><br />
+            <button class="button" onClick="checkEmail()">
+              <span>SUBMIT </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="index-contacts.js"></script>
+  </body>
+</html>
